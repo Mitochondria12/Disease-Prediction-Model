@@ -1,0 +1,4 @@
+This is my first attempt at creating a machine learning model to predict disease status. The data comes from the kaggle competition Identifying Age-Related Conditions ICR.
+My primary hypothesis is creating new data features in the form of eucdelian distance between samples with all the other samples. This will leak information into the model,
+so we will learn the impacts of doing this.
+My secondary hypothesis is creating a new data feature in the form of which K means cluster each group is part of for various different K mean classes, from 3- 10 classes. 
